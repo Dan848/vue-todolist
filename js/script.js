@@ -5,11 +5,11 @@ createApp({
         return{
             toDoList: [
                 {
-                    text: "pane",
+                    text: "Inserisci",
                     done: false
                 },
                 {
-                    text: "pasta",
+                    text: "Qualcosa nella lista",
                     done: false
                 },
             ],
