@@ -15,14 +15,14 @@
     width: 25px;
 }
 
-ul,h2 {
-    background-color: #783cd7;
-}
-
-h1 {
+h1,ul,h2 {
     background-color: #783cd7;
 }
 
 h2 {
     transform: translateY(9px);
+}
+
+.new-green {
+    background-color: #1b9925;
 }
