@@ -8,6 +8,10 @@ createApp({
                     text: "pane",
                     done: false
                 },
+                {
+                    text: "pasta",
+                    done: false
+                },
             ],
             addText: "",
         }
@@ -15,7 +19,7 @@ createApp({
     methods: {
         addItem(){
             //Ci assicura
-            if (this.addText && this.addText.length > 1) {
+            if (this.addText && this.addText.length > 1 ) {
                 const newItem = {
                     text: this.addText,
                     done: false
